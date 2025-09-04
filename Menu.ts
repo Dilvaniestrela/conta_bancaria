@@ -1,4 +1,5 @@
 import readlinesync = require("readline-sync");
+const Colors = require("./Colors");
 
 export function main() {
 
@@ -6,7 +7,7 @@ export function main() {
     
     while (true) {
 
-    console.log("***************************************************");
+    console.logCColors.blue(("***************************************************"));
     console.log("                                                   ");
     console.log("                 STARS BANK                        ");
     console.log("                                                   ");
